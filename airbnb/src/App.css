@@ -35,6 +35,7 @@ section {
 
 .hero--header {
     margin-bottom: 16px;
+    align-self: center;
 }
 
 .hero--body {
@@ -50,16 +51,16 @@ section {
 .card {
     width: 175px;
     font-size: 12px;
-    margin-left: 9px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .card--image {
     max-width: 200px;
     border-radius: 9px;
-}
-
-.card--stats {
-    max-width: 20px;
+    margin-bottom: 9px;
 }
 
 .card--price {
@@ -72,4 +73,20 @@ section {
 
 .card--star {
     height: 14px;
+}
+
+.cards-list{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
