@@ -42,3 +42,34 @@ section {
     align-self: center;
     margin-right: 300px;
 }
+
+.grid {
+    padding: 20px;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    margin-left: 9px;
+}
+
+.card--image {
+    max-width: 200px;
+    border-radius: 9px;
+}
+
+.card--stats {
+    max-width: 20px;
+}
+
+.card--price {
+    font-weight: bold;
+}
+
+.card--gray {
+    color: gray;
+}
+
+.card--star {
+    height: 14px;
+}
