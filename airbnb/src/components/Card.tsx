@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props:any){
     let badgeText
-    
+
     if(props.openSpots === 0){
         badgeText = "SOLD OUT"
     } else if(props.location === "online"){
@@ -25,7 +25,7 @@ function Card(props:any){
             <p>{props.title}</p>
 
             <p>
-                <span className="card--price">From ${props.price}</span>
+                <span className="card--price">From ${props.price} </span>
                 / person
             </p>
         </div>

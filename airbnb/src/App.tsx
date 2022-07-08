@@ -13,7 +13,7 @@ function App(){
              />
      })
   return(
-    <div>
+    <div className='principal'>
       <Navbar />
       <Hero />
       <section className='cards-list'>
