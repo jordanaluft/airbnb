@@ -3,7 +3,7 @@ import React from "react";
 function Card(props:any){
     let badgeText
 
-    if(props.openSpots === 0){
+    if(props.openSpot === 0){
         badgeText = "SOLD OUT"
     } else if(props.location === "online"){
         badgeText = "ONLINE"
